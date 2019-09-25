@@ -1,0 +1,8 @@
+XML解析
+1.JAXBContext 缺点：需要将整个xml解析，xml较大时浪费资源
+2.stax(基于光标)解析xml 解析时类似于光标的移动next 
+3.XMLEvent或配合EventFilter 
+2~3基于XMLInputFactory
+
+4.Xpath解析
+基于DocumentBuilderFactory和XPathFactory
